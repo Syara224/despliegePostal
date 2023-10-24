@@ -10,12 +10,14 @@ version = '0.0.1-SNAPSHOT'
 java {
 	sourceCompatibility = '17'
 }
-
 jar {
+	enabled = false
 	manifest {
 		attributes 'Main-Class': 'com.workshop.postal.PostalCompanyApplication'
 	}
 }
+
+
 
 configurations {
 	compileOnly {
